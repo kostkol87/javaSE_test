@@ -1,0 +1,16 @@
+ERROR 2014-07-29 19:50:01,324 [Test] - no Error in anotherMethod
+TRACE 2014-07-29 19:50:01,324 [Test] - =====================
+TRACE 2014-09-27 14:53:42,210 [Main] - 
+TRACE 2014-09-27 14:53:42,212 [Main] - Start
+FATAL 2014-09-27 14:53:42,212 [Main] - Fatal message
+ERROR 2014-09-27 14:53:42,214 [Main] - Error message
+WARN  2014-09-27 14:53:42,214 [Main] - Warning message
+INFO  2014-09-27 14:53:42,214 [Main] - Info message
+DEBUG 2014-09-27 14:53:42,214 [Main] - Debug message
+TRACE 2014-09-27 14:53:42,214 [Main] - Trace message
+TRACE 2014-09-27 14:53:42,214 [Test] - =====================
+TRACE 2014-09-27 14:53:42,214 [Test] - Test.class was created
+TRACE 2014-09-27 14:53:42,214 [Test] - =====================
+TRACE 2014-09-27 14:53:42,215 [Test] - =====================
+ERROR 2014-09-27 14:53:42,215 [Test] - no Error in anotherMethod
+TRACE 2014-09-27 14:53:42,215 [Test] - =====================

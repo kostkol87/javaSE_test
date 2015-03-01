@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ServletFileStream:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ServletFileStream_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ServletFileStream/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ServletFileStream" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

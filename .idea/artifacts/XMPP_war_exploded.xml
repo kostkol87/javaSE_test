@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="XMPP:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/XMPP_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="AccountService/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AccountService" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Downloads/postgresql-9.3-1102.jdbc3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.IntelliJIdea13/config/jdbc-drivers/mysql-connector-java-5.1.31-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

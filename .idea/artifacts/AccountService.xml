@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="AccountService">
+    <output-path>$PROJECT_DIR$/out/artifacts/AccountService</output-path>
+    <root id="archive" name="AccountService.war" />
+  </artifact>
+</component>

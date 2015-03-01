@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="UploadServlet:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/UploadServlet_war</output-path>
+    <root id="archive" name="UploadServlet_war.war">
+      <element id="artifact" artifact-name="UploadServlet:war exploded" />
+    </root>
+  </artifact>
+</component>

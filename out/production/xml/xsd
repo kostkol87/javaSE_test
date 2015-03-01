@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://java-course.com/test"
+        xmlns:xsd="http://java-course.com/test">
+
+    <xs:element name="books" type="xsd:mybooks">
+       <xs:complexType>
+           <xs:sequence>
+               <xs:element name="isbn" type="xs:int" minOccurs="1" maxOccurs="1" nillable="false"/>
+               <xs:element name="author" type="xs:string" minOccurs="0" maxOccurs="1" nillable="true"/>
+               <xs:element name="price" type="xs:double" minOccurs="1" maxOccurs="1" nillable="false"/>
+               <xs:element name="madeDate" type="xs:dateTime" minOccurs="0" maxOccurs="1" nillable="true"/>
+           </xs:sequence>
+       </xs:complexType>
+    </xs:element>
+
+
+    <xs:complexType name="myNooks">
+
+    </xs:complexType>
+</xs:schema>
